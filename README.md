@@ -9,7 +9,7 @@ Corrected typo in csvRead, changed ~~ostream~~ to istream [Here](#csvread-virtua
 
 Because of the pandemic and prevention of the spread of COVID19, hospitals need to screen the patients and separate those in need of COVID-test from others. This has to be done in an orderly fashion by letting the patients know what is the expected wait time and let them know when they can be admitted. 
 
-Your task is to help complete the implementation of the Pre-Triage application. 
+The task is to help complete the implementation of the Pre-Triage application. 
 
 ## The Pre-Triage Application
 The application starts by displaying a simple menu with three options:
@@ -29,36 +29,6 @@ If Triage is selected then in addition to the patient's name and OHIP number, th
 
 ### Admit
 Admit is selected when the COVID Test area or the Triage section is ready to accept a patient. After selecting COVID or Triage, the patient with the next ticket in line will be called. Based on the time of the call, the average wait time for the next patient for that line up (COVID or Triage) will be updated.
-
-## Milestones and due dates
-The project will be done in 4 or 5 milestones and each milestone will have its due date. The due date of each milestone will be announced when it is published, and it is based on the amount of work to be done for that milestone. 
-
-## Citation, Sources
-
-When submitting your work, all the files submitted should carry full student information along with the "citation and sources" information. See the following example:
-
-```C++
-/* Citation and Sources...
-Final Project Milestone ? 
-Module: Menu
-Filename: Menu.h
-Version 1.0
-Author	John Doe
-Revision History
------------------------------------------------------------
-Date      Reason
-2020/?/?  Preliminary release
-2020/?/?  Debugged DMA
------------------------------------------------------------
-I have done all the coding by myself and only copied the code 
-that my professor provided to complete my workshops and assignments.
------------------------------------------------------------
-OR
------------------------------------------------------------
-Write exactly which part of the code is given to you as help and 
-who gave it to you, or from what source you acquired it.
------------------------------------------------------------*/
-```
 
 ## Compiling and Testing Your Program
 
@@ -84,12 +54,6 @@ To check the output, use a program that can compare text files.  Search online f
 > Note: All the code written in the project must be implemented in the **sdds** namespace.
 
 ## Project Implementation notes:  *Very Important, read carefully*
--	All the code written in this project should be within the namespace sdds.
--	You are free and encouraged to add any member variables or member functions you find necessary to complete your code. If you are not sure about your strategy for adding functionalities and properties to your classes, ask your professor for advice.  
--	A module called **utils** is added to the project with two functions that can be used in your implementation. As mentioned before, you can add any custom code of your own to the **utils** module to be used throughout the project. Also, because the application works with real system time, for debugging purposes a global **sdds::debug** flag is added to the utils module. (see Time module for more information)<br/>
-You are free to use this flag for your own debugging messages.
- **utils.h** will be included in all the testers of the milestones. 
--	Unless you are asked for a specific definition, name the variables, and functions yourself. Use proper names and follow the naming conventions instructed by your professor. Having meaningless and misleading names will attract a penalty.
 -	Throughout the project, if any class is capable of displaying or writing itself, the member function will always have the following signature: 
 The function will return a reference of an **ostream** and will receive a reference of an "ostream" as an argument.  
 -	Throughout the project, if any class is capable of reading or receiving its content from a stream, the member function will always have the following signature: 
@@ -355,19 +319,6 @@ Actual system time is: 01:15
 ```
 > Note: the last value **01:15** changes based on the system's time.
 
-## MS1 Submission and due date
-Milestone 1 is due on Friday Nov 13th, 23:59.
-
-Upload your source code and the tester program (**utils.cpp, utils.h Menu.cpp,Menu.h, Time.cpp, Time.h and ms1Tester.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 244/prj/m1
-```
-and follow the instructions.
-
-> **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
-
 # Milestone 2  
 ## IOAble interface module
 
@@ -462,20 +413,6 @@ boxesOut.txt---------------------
 Box(5,30) is gone!
 
 ```
-
-
-## MS2 Submission and the due date
-Milestone 2 is due on Sunday, Nov 15th, 23:59.
-
-Upload your source code and the tester program (**IOAble.cpp, IOAble.h, ms2Tester.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 244/prj/m2
-```
-and follow the instructions.
-
-> **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 # Milestone 3
 
@@ -1309,6 +1246,4 @@ The execution samples will be provided by Monday, Dec 30th.
 
 ## MS5 Submission and the due date
 
-Milestone 5 is due on Saturday, Dec 5th, 23:59 for a full mark.
 
-The details for different types of submission and late submission penalties will be released by Monday, Dec 30th.
