@@ -1214,9 +1214,6 @@ The tester program for a big data file (103 records)
 
 ## fpTester.cpp 
 
-The fpTester program will be copied from the professor's directory to yours and will combine all three testers.
-
-The execution samples will be provided by Monday, Dec 30th.
 
 
 
