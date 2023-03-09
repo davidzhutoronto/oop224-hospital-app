@@ -259,7 +259,9 @@ Tester Options menu:
 goodbye!
 ```
 ## ms1Tester.cpp Execution Sample 
-> Use these data entry for your submission.
+> Use these data entry for your 
+
+mission.
 ```Text
 Menu tester -----------------------------------------
 Tester Options menu:
@@ -579,7 +581,6 @@ Read and study the tester program and understand how it works.
 
 ## ms3Tester.cpp Execution Sample 
 
-> Use these data entries for your submission.
 
 ```Text
 Enter The following:
@@ -657,20 +658,6 @@ W, Ticket Time: 12:54
 W, Ticket number: 14
 ```
 
-
-## MS3 Submission and the due date
-
-Milestone 3 is due on Friday, Nov 20th, 23:59.
-
-Upload your source code and the tester program (**IOAble.cpp, IOAble.h,Patient.h, Patient.cpp, Ticket.h, Ticket.cpp, Time.h, Time.cpp,utils.h,utils.cpp,ms3.csv, ms3Tester.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 244/prj/m3
-```
-and follow the instructions.
-
-> **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 
 # Milestone 4
@@ -907,19 +894,6 @@ Read and study the tester program and understand how it works.
 
 The ms4Tester program is the execution of both modules combine.
 
-## MS4 Submission and the due date
-
-Milestone 4 is due on Friday, Nov 27th, 23:59.
-
-Upload your source code and the tester program (**IOAble.cpp, IOAble.h,Patient.h, Patient.cpp, Ticket.h, Ticket.cpp, Time.h, Time.cpp,utils.h,utils.cpp,CovidPatient.h,CovidPatient.cpp,TriagePatient.h, TriagePatient.cpp , ms4Tester.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 244/prj/m3
-```
-and follow the instructions.
-
-> **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 # Milestone 5
 
@@ -1244,6 +1218,5 @@ The fpTester program will be copied from the professor's directory to yours and 
 
 The execution samples will be provided by Monday, Dec 30th.
 
-## MS5 Submission and the due date
 
 
